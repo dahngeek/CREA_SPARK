@@ -68,7 +68,7 @@
 
 #include "spark_wiring_usbserial.h"
 #include "spark_wiring_string.h"
-#include "Particle.h"
+#include "application.h"
 
 #include "CREA-Particle.h"
 #include <stdlib.h>
