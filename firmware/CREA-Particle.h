@@ -58,14 +58,12 @@ public:
   bool send(char* message);
 private:
 String WebSocketClientStringTable = {
-			"GET / HTTP/1.1\x0d\x0a"
-			"Upgrade: websocket\x0d\x0a"
+			"GET wss://{0}/ HTTP/1.1\x0d\x0a"
 			"Connection: Upgrade\x0d\x0a"
+      "Upgrade: websocket\x0d\x0a"
 			"Host: {0}:{1}\x0d\x0a"
-			"Origin: SparkWebSocketClient\x0d\x0a"
-			"Sec-WebSocket-Key1: 18x 6]8vM;54 *(5:  {   U1]8  z [  8\x0d\x0a"
-      "Sec-WebSocket-Key2: 1_ tx7X d  <  nw  334J702) 7]o}` 0\x0d\x0a"
-      "HTTP/1.1 101\x0d\x0a"
+			"Sec-WebSocket-Key:  I5XtBcROhe20BA34x+i9zg==\x0d\x0a"
+			"Sec-WebSocket-Version: 13\x0d\x0a"
 			"\x0d\x0a"};
   const char* _hostname;
   const byte* _host;
