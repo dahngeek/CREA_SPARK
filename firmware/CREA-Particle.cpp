@@ -572,6 +572,7 @@ void WebSocketClient::readLine(char* buffer) {
 	while(_client.available() > 0 && (character = _client.read()) != '\n') {
 		if (character != '\r' && character != -1) {
 			buffer[i++] = character;
+			Serial.print(character);
 		}
 	}
 	buffer[i] = 0x0;
