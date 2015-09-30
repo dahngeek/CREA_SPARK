@@ -1,7 +1,7 @@
 {
-  "name": "Spark-Websockets",
-  "author": "Ivan Davletshin <ekbduffy@gmail.com>",
+  "name": "CREA-Particle",
+  "author": "dahngeek <me@dahngeek.com>",
   "license": "MIT",
   "version": "0.0.6",
-  "description": "Spark Library to work with websockets"
+  "description": "Librería de Particle para CREA"
 }
