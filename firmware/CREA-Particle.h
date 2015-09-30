@@ -66,6 +66,7 @@ String WebSocketClientStringTable = {
 			"Sec-WebSocket-Key1: 18x 6]8vM;54 *(5:  {   U1]8  z [  8\x0d\x0a"
       "Sec-WebSocket-Key2: 1_ tx7X d  <  nw  334J702) 7]o}` 0\x0d\x0a"
 			"Sec-WebSocket-Version: 13\x0d\x0a"
+      "HTTP/1.1 101\x0d\x0a"
 			"\x0d\x0a"};
   const char* _hostname;
   const byte* _host;

@@ -516,6 +516,7 @@ void WebSocketClient::sendHandshake(const char* hostname, const char* path, cons
 	WebSocketClientStringTable.replace("{1}", strport);
 
 	_client.print(WebSocketClientStringTable);
+	_client.print("Tm[K T2u");
 	#ifdef HANDSHAKE
 	  Serial.println(WebSocketClientStringTable);
 	  Serial.println("Handshake sent");
