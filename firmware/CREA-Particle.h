@@ -63,7 +63,8 @@ String WebSocketClientStringTable = {
 			"Connection: Upgrade\x0d\x0a"
 			"Host: {0}:{1}\x0d\x0a"
 			"Origin: SparkWebSocketClient\x0d\x0a"
-			"Sec-WebSocket-Key:  1VTFj/CydlBCZDucDqw8eA==\x0d\x0a"
+			"Sec-WebSocket-Key1: 18x 6]8vM;54 *(5:  {   U1]8  z [  8"
+      "Sec-WebSocket-Key2: 1_ tx7X d  <  nw  334J702) 7]o}` 0"
 			"Sec-WebSocket-Version: 13\x0d\x0a"
 			"\x0d\x0a"};
   const char* _hostname;
